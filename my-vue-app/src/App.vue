@@ -14,6 +14,7 @@
       <h2 class="name-highlight">Lana</h2>
       
       <p>Welcome sa aking unang Vite + Vue app.</p>
+      <p>Date: April 17, 2026</p>
       
       <div class="status-badge">
         Connected to Supabase
