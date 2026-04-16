@@ -1,34 +1,44 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <h1>Hello!!! My name is Jelly Ann Lana.</h1>
-  <p> Welcome to My First Vue.js App!</p>
+  <div class="main-container">
+    
+    <div class="card">
+      <img src="./assets/vue.svg" alt="Vue logo" width="80" />
+      
+      <h1>ITECC6 - Project</h1>
+      <p>Hi! My Name is Jelly Ann Lana</p>
+      
+      <h2 class="name-highlight">Lana</h2>
+      
+      <p>Welcome sa aking unang Vite + Vue app.</p>
+      
+      <div class="status-badge">
+        Connected to Supabase
+      </div>
+    </div>
 
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
   </div>
-
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+.name-highlight {
+  color: #42b883;
+  font-size: 2rem;
+  margin: 10px 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.status-badge {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 </style>
